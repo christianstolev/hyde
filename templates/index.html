@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/index.css') }}">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="{{ url_for('static',filename='scripts/script.js') }}"></script>
+    <title>HYDE</title>
+</head>
+<body>
+    <img class="icon" src="{{ url_for('static',filename='media/logo.png') }}" alt="">
+    <h3 class="icon-h3">A project by Christian Stolev</h3>
+    <div id="btn1" class="menu-button">
+        <i class="fi fi-br-check" style="width: 100px;font-size: 30px;color: #9DB2BF;top: 10px;left: 14px;position: relative;"></i>
+        <h2 style="
+    text-align: center;
+    color: #9DB2BF;
+    font-family: system-ui;
+    position: relative;
+    top: -47px;
+">Cached session</h2>
+    </div>
+    <div id="btn2" class="menu-button" style="margin-top: 10px;">
+        <i class="fi fi-br-plus" style="width: 100px;font-size: 30px;color: #9DB2BF;top: 10px;left: 14px;position: relative;"></i>
+        <h2 style="
+    text-align: center;
+    color: #9DB2BF;
+    font-family: system-ui;
+    position: relative;
+    top: -47px;
+">New session</h2>
+    </div>
+
+    <div class="" style="background-color: #526d827d;height: 561px;width: 318px;margin-top: 10px;margin-left: auto;margin-right: auto;border-radius: 3px;">
+        <p id="log" style="padding: 10px;height: 100%; font-family: monospace; color: #ffffff78; word-break: break-word;"><b>[06:35:02]</b> Välkommen :D<br>
+        </p>
+        </div>
+
+    <div style="
+    height: 400px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    top: 236px;
+    margin-right: auto;
+    width: 290px; /* Need a specific value to work */
+    visibility: hidden;
+/* From https: //css.glass */
+    background: rgb(19 41 58 / 66%);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    border: 1px solid rgb(255 255 255 / 30%);
+">
+    <div class="parent">
+        <div class="div1"><h1 style="text-align: center;color: white;font-family: sans-serif;font-size: 40px;height: 100%;">1</h1></div>
+        <div class="div2"> <h1 style="text-align: center;color: white;font-family: sans-serif;font-size: 40px;height: 100%;">2</h1></div>
+        <div class="div3"> <h1 style="text-align: center;color: white;font-family: sans-serif;font-size: 40px;height: 100%;">3</h1></div>
+        <div class="div4"> <h1 style="text-align: center;color: white;font-family: sans-serif;font-size: 40px;height: 100%;">4</h1></div>
+        <div class="div5"> <h1 style="text-align: center;color: white;font-family: sans-serif;font-size: 40px;height: 100%;">5</h1></div>
+        <div class="div6"> <h1 style="text-align: center;color: white;font-family: sans-serif;font-size: 40px;height: 100%;">6</h1></div>
+        <div class="div7"> <h1 style="text-align: center;color: white;font-family: sans-serif;font-size: 40px;height: 100%;">7</h1></div>
+        <div class="div8"> <h1 style="text-align: center;color: white;font-family: sans-serif;font-size: 40px;height: 100%;">8</h1></div>
+        <div class="div9"> <h1 style="text-align: center;color: white;font-family: sans-serif;font-size: 40px;height: 100%;">9</h1></div>
+        <div class="div10"> <h1 style="text-align: center;color: white;font-family: sans-serif;font-size: 40px;height: 100%;">0</h1></div>
+    </div>
+</div>
+
+<div id="INP-DIV" style="
+    height: 55px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    top: 237px;
+    margin-right: auto;
+    width: 316px; /* Need a specific value to work */
+    
+/* From https: //css.glass */
+    background: rgb(19 41 58 / 66%);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    border: 1px solid rgb(255 255 255 / 30%);
+    visibility: hidden;
+">
+    <input id="num-input" onkeypress="handleKeyPress(event)" value="" style="
+    height: 90%;
+    width: 97%;
+    background: none;
+    border: none;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+" type="number">
+</div>
+</body>
+</html>

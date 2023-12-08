@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/index.css') }}">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="{{ url_for('static',filename='scripts/script.js') }}"></script>
+    <title>HYDE</title>
+</head>
+<body>
+    <img class="icon" src="{{ url_for('static',filename='media/logo.png') }}" alt="">
+    <h3 class="icon-h3">A project by Christian Stolev</h3>
+    <div id="startBtn" class="menu-button">
+        <i class="fi fi-br-rotate-right" style="width: 100px;font-size: 30px;color: #9DB2BF;top: 12px;left: 14px;position: relative;"></i>
+        <h2 style="
+    text-align: center;
+    color: #9DB2BF;
+    font-family: system-ui;
+    position: relative;
+    top: -47px;
+">Load</h2>
+    </div>
+    <div id="scList">
+    </div>
+</body>
+</html>

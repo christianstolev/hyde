@@ -1,0 +1,2 @@
+Ber om ursäkt för en ganska stökig HTML + CSS, inte min stoltaste skapelse men ville bli klar så snabbt som möjligt.
+Jag kommer inte ha med specifika API endpoints eller krypteringsnyklar då det kan räknas som grovt dataintrång eller dataintrång av normalgraden.
